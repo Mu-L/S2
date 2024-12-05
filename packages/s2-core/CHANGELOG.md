@@ -1,3 +1,31 @@
+# [@antv/s2-v1.56.0](https://github.com/antvis/S2/compare/@antv/s2-v1.55.8...@antv/s2-v1.56.0) (2024-10-25)
+
+
+### Bug Fixes
+
+* 修复父容器存在 transform 时, 在 canvas 内点击也会重置交互的问题 close [#2879](https://github.com/antvis/S2/issues/2879) ([#2942](https://github.com/antvis/S2/issues/2942)) ([cfc45b7](https://github.com/antvis/S2/commit/cfc45b7b94b7c6ac5a436a57ad6c694b7c184bcf))
+
+
+### Features
+
+* **i18n:** add formatter support of the russian language ([#2862](https://github.com/antvis/S2/issues/2862)) ([e5b16c5](https://github.com/antvis/S2/commit/e5b16c55b0a090560673f2723659d74a063662df))
+* **i18n:** add support of the russian language ([#2853](https://github.com/antvis/S2/issues/2853)) ([21f4226](https://github.com/antvis/S2/commit/21f4226095fe55e0b23bb6a0a0598dc56ac8b5ce))
+
+# [@antv/s2-v1.55.8](https://github.com/antvis/S2/compare/@antv/s2-v1.55.7...@antv/s2-v1.55.8) (2024-07-26)
+
+
+### Bug Fixes
+
+* 修复在维值缺失场景下导出数据占位符未解析的问题 ([#2829](https://github.com/antvis/S2/issues/2829)) ([077e823](https://github.com/antvis/S2/commit/077e82305806894df4d5dcd908f5e7dc913cd6fc))
+
+# [@antv/s2-v1.55.7](https://github.com/antvis/S2/compare/@antv/s2-v1.55.6...@antv/s2-v1.55.7) (2024-07-05)
+
+
+### Bug Fixes
+
+* 修复树状模式当一组数据只有一条数据时, 叶子节点判断错误, 也渲染了展开/收起图标 close [#2804](https://github.com/antvis/S2/issues/2804) ([#2806](https://github.com/antvis/S2/issues/2806)) ([fa5bb9b](https://github.com/antvis/S2/commit/fa5bb9b4f5f7c661993670a86d9135781adb946e))
+* 自定义计算汇总 calcFunc 回调函数增加 s2 实例, 修复无法获取汇总数据的问题 close [#2795](https://github.com/antvis/S2/issues/2795) ([#2805](https://github.com/antvis/S2/issues/2805)) ([2c28e84](https://github.com/antvis/S2/commit/2c28e841752ab94829b3c38f41becc536a5e8328))
+
 # [@antv/s2-v1.55.6](https://github.com/antvis/S2/compare/@antv/s2-v1.55.5...@antv/s2-v1.55.6) (2024-05-31)
 
 
